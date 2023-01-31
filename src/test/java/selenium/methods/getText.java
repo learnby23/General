@@ -11,7 +11,7 @@ public class getText {
 		
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://google.com");
-		String text=driver.findElement(By.xpath("//a[text()='Gmail']")).getText();
+		String text=driver.findElement(By.xpath("//a[text()='Gmai']")).getText();
 		System.out.println(text);
 		
 
