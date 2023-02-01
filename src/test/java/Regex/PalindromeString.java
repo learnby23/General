@@ -3,7 +3,7 @@ package Regex;
 public class PalindromeString {
 
 	public static void main(String[] args) {
-		String input = "abba";
+		String input = "abbaa";
 		String output = "";
 		System.out.println("The given input string is :" + input);
 
