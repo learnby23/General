@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.Click">
+      <class name="selenium.methods.DownloadFileInFirefox">
         <methods>
-          <include name="downloadFile"/>
+          <include name="downloadFileInFolder"/>
         </methods>
-      </class> <!-- selenium.methods.Click -->
+      </class> <!-- selenium.methods.DownloadFileInFirefox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
