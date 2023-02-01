@@ -12,6 +12,7 @@ public class getText {
 		driver.get("https://google.com");
 		String text=driver.findElement(By.xpath("//a[text()='Gmail']")).getText();
 		System.out.println(text);
+		driver.close();
 
 	}
 
