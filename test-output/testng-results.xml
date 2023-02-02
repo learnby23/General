@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-03T02:59:43 IST" name="Default suite" finished-at="2023-02-03T03:01:26 IST" duration-ms="103419">
+  <suite started-at="2023-02-03T04:15:22 IST" name="Default suite" finished-at="2023-02-03T04:16:19 IST" duration-ms="57031">
     <groups>
     </groups>
-    <test started-at="2023-02-03T02:59:43 IST" name="Default test" finished-at="2023-02-03T03:01:26 IST" duration-ms="103419">
-      <class name="selenium.methods.HTMLCodeofElement">
-        <test-method signature="htmlcodeofElement()[pri:0, instance:selenium.methods.HTMLCodeofElement@42a48628]" started-at="2023-02-03T02:59:43 IST" name="htmlcodeofElement" finished-at="2023-02-03T03:01:26 IST" duration-ms="103309" status="PASS">
+    <test started-at="2023-02-03T04:15:22 IST" name="Default test" finished-at="2023-02-03T04:16:19 IST" duration-ms="57031">
+      <class name="selenium.methods.AutoSuggestions">
+        <test-method signature="autoSuggestions()[pri:0, instance:selenium.methods.AutoSuggestions@55183b20]" started-at="2023-02-03T04:15:22 IST" name="autoSuggestions" finished-at="2023-02-03T04:16:19 IST" duration-ms="56873" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- htmlcodeofElement -->
-      </class> <!-- selenium.methods.HTMLCodeofElement -->
+        </test-method> <!-- autoSuggestions -->
+      </class> <!-- selenium.methods.AutoSuggestions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

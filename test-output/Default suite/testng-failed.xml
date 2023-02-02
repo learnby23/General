@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.ScrolltillElement">
+      <class name="selenium.methods.AutoSuggestions">
         <methods>
-          <include name="scrolltoElement"/>
+          <include name="autoSuggestions"/>
         </methods>
-      </class> <!-- selenium.methods.ScrolltillElement -->
+      </class> <!-- selenium.methods.AutoSuggestions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
