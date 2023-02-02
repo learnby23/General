@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.Alerts">
+      <class name="selenium.methods.ScrolltillElement">
         <methods>
-          <include name="handleAlert"/>
+          <include name="scrolltoElement"/>
         </methods>
-      </class> <!-- selenium.methods.Alerts -->
+      </class> <!-- selenium.methods.ScrolltillElement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
