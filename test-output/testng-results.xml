@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-02T16:23:05 IST" name="Default suite" finished-at="2023-02-02T16:24:08 IST" duration-ms="63163">
+  <suite started-at="2023-02-02T19:28:06 IST" name="Default suite" finished-at="2023-02-02T19:29:58 IST" duration-ms="112100">
     <groups>
     </groups>
-    <test started-at="2023-02-02T16:23:05 IST" name="Default test" finished-at="2023-02-02T16:24:08 IST" duration-ms="63163">
-      <class name="selenium.methods.ZoominZoomout">
-        <test-method signature="zoomInOut()[pri:0, instance:selenium.methods.ZoominZoomout@293a5bf6]" started-at="2023-02-02T16:23:05 IST" name="zoomInOut" finished-at="2023-02-02T16:24:08 IST" duration-ms="62628" status="PASS">
+    <test started-at="2023-02-02T19:28:06 IST" name="Default test" finished-at="2023-02-02T19:29:58 IST" duration-ms="112100">
+      <class name="selenium.methods.Alerts">
+        <test-method signature="handleAlert()[pri:0, instance:selenium.methods.Alerts@55183b20]" started-at="2023-02-02T19:28:06 IST" name="handleAlert" finished-at="2023-02-02T19:29:58 IST" duration-ms="111627" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- zoomInOut -->
-      </class> <!-- selenium.methods.ZoominZoomout -->
+        </test-method> <!-- handleAlert -->
+      </class> <!-- selenium.methods.Alerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

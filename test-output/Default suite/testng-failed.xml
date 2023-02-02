@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.ZoominZoomout">
+      <class name="selenium.methods.Alerts">
         <methods>
-          <include name="zoomInOut"/>
+          <include name="handleAlert"/>
         </methods>
-      </class> <!-- selenium.methods.ZoominZoomout -->
+      </class> <!-- selenium.methods.Alerts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
