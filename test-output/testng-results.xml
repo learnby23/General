@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-02T01:38:20 IST" name="Default suite" finished-at="2023-02-02T01:41:13 IST" duration-ms="172740">
+  <suite started-at="2023-02-02T16:23:05 IST" name="Default suite" finished-at="2023-02-02T16:24:08 IST" duration-ms="63163">
     <groups>
     </groups>
-    <test started-at="2023-02-02T01:38:20 IST" name="Default test" finished-at="2023-02-02T01:41:13 IST" duration-ms="172740">
-      <class name="selenium.methods.DownloadFileInFirefox">
-        <test-method signature="downloadFileInFolder()[pri:0, instance:selenium.methods.DownloadFileInFirefox@42a48628]" started-at="2023-02-02T01:38:20 IST" name="downloadFileInFolder" finished-at="2023-02-02T01:41:13 IST" duration-ms="172644" status="PASS">
+    <test started-at="2023-02-02T16:23:05 IST" name="Default test" finished-at="2023-02-02T16:24:08 IST" duration-ms="63163">
+      <class name="selenium.methods.ZoominZoomout">
+        <test-method signature="zoomInOut()[pri:0, instance:selenium.methods.ZoominZoomout@293a5bf6]" started-at="2023-02-02T16:23:05 IST" name="zoomInOut" finished-at="2023-02-02T16:24:08 IST" duration-ms="62628" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadFileInFolder -->
-      </class> <!-- selenium.methods.DownloadFileInFirefox -->
+        </test-method> <!-- zoomInOut -->
+      </class> <!-- selenium.methods.ZoominZoomout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

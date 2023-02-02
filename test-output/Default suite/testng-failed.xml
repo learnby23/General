@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.DownloadFileInFirefox">
+      <class name="selenium.methods.ZoominZoomout">
         <methods>
-          <include name="downloadFileInFolder"/>
+          <include name="zoomInOut"/>
         </methods>
-      </class> <!-- selenium.methods.DownloadFileInFirefox -->
+      </class> <!-- selenium.methods.ZoominZoomout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
