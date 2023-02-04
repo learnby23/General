@@ -20,7 +20,7 @@ public class HeadlessMode {
 		String text=driver.findElement(By.xpath("//a[text()='Gmail']")).getText();
 		System.out.println(text);
 		
-
+		driver.quit();
 	}
 
 }

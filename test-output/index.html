@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse-278638321\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Dell\eclipse-workspace\Selenium\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,95 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.ScrolltillElement" class="method navigator-link" hash-for-method="scrolltoElement">scrolltoElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="selenium.methods.AutoSuggestions" class="method navigator-link" hash-for-method="autoSuggestions">autoSuggestions</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.AutoSuggestions" class="method navigator-link" hash-for-method="autoSuggestions">autoSuggestions</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.DisablePushNotificatin" class="method navigator-link" hash-for-method="disablePushNotification">disablePushNotification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.GetandNavigate" class="method navigator-link" hash-for-method="getandnavigate">getandnavigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.getText" class="method navigator-link" hash-for-method="gettext">gettext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.Alerts" class="method navigator-link" hash-for-method="handleAlert">handleAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.HeadlessMode" class="method navigator-link" hash-for-method="headlessBrowser">headlessBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.HideAutomationMessage" class="method navigator-link" hash-for-method="hideAutomationMessage">hideAutomationMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.HTMLCodeofElement" class="method navigator-link" hash-for-method="htmlcodeofElement">htmlcodeofElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.ScrollWindow" class="method navigator-link" hash-for-method="scrolltheWindow">scrolltheWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.SendKeys" class="method navigator-link" hash-for-method="sendkeys">sendkeys</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.setSize" class="method navigator-link" hash-for-method="setsize">setsize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.Screenshotoffullpage" class="method navigator-link" hash-for-method="takesScreenshot">takesScreenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selenium.methods.ZoominZoomout" class="method navigator-link" hash-for-method="zoomInOut">zoomInOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,8 +191,57 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.methods.ScrolltillElement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrolltoElement">
+                  </a> <!-- scrolltoElement -->
+                  <span class="method-name">scrolltoElement</span>
+                  <div class="stack-trace">org.openqa.selenium.ScriptTimeoutException: Timed out after 30000 ms
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7f70b923-eee5-47bd-8e9d-244f53308f81, executeAsyncScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=933a4f76-2aa4-4a10-ae47-5f0834ee0d6d, element-6066-11e4-a52e-4f735466cecf=933a4f76-2aa4-4a10-ae47-5f0834ee0d6d}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:46851, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12856, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46851/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7f70b923-eee5-47bd-8e9d-244f53308f81
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:493)
+	at selenium.methods.ScrolltillElement.scrolltoElement(ScrolltillElement.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.DisablePushNotificatin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="disablePushNotification">
+                  </a> <!-- disablePushNotification -->
+                  <span class="method-name">disablePushNotification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">selenium.methods.AutoSuggestions</span>
@@ -132,98 +255,437 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.ZoominZoomout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="zoomInOut">
+                  </a> <!-- zoomInOut -->
+                  <span class="method-name">zoomInOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.Alerts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleAlert">
+                  </a> <!-- handleAlert -->
+                  <span class="method-name">handleAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.getText</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="gettext">
+                  </a> <!-- gettext -->
+                  <span class="method-name">gettext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.ScrollWindow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrolltheWindow">
+                  </a> <!-- scrolltheWindow -->
+                  <span class="method-name">scrolltheWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.HTMLCodeofElement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="htmlcodeofElement">
+                  </a> <!-- htmlcodeofElement -->
+                  <span class="method-name">htmlcodeofElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.HideAutomationMessage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hideAutomationMessage">
+                  </a> <!-- hideAutomationMessage -->
+                  <span class="method-name">hideAutomationMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.SendKeys</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendkeys">
+                  </a> <!-- sendkeys -->
+                  <span class="method-name">sendkeys</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.GetandNavigate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getandnavigate">
+                  </a> <!-- getandnavigate -->
+                  <span class="method-name">getandnavigate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.Screenshotoffullpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="takesScreenshot">
+                  </a> <!-- takesScreenshot -->
+                  <span class="method-name">takesScreenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.setSize</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setsize">
+                  </a> <!-- setsize -->
+                  <span class="method-name">setsize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selenium.methods.HeadlessMode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="headlessBrowser">
+                  </a> <!-- headlessBrowser -->
+                  <span class="method-name">headlessBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse-278638321\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Dell\eclipse-workspace\Selenium\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;selenium.methods.GetandNavigate&quot;/&gt;
       &lt;class name=&quot;selenium.methods.AutoSuggestions&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.DownloadFileInFirefox&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.ZoominZoomout&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.HeadlessMode&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.SendKeys&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.HTMLCodeofElement&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.DownloadFileInChrome&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.Screenshotoffullpage&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.HideAutomationMessage&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.setSize&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.ScrolltillElement&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.ScrollWindow&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.Alerts&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.getText&quot;/&gt;
+      &lt;class name=&quot;selenium.methods.DisablePushNotificatin&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (16 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'autoSuggestions')
-data.setCell(0, 2, 'selenium.methods.AutoSuggestions')
-data.setCell(0, 3, 56873);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'scrolltoElement')
+data.setCell(0, 2, 'selenium.methods.ScrolltillElement')
+data.setCell(0, 3, 48546);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'autoSuggestions')
+data.setCell(1, 2, 'selenium.methods.AutoSuggestions')
+data.setCell(1, 3, 48243);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'zoomInOut')
+data.setCell(2, 2, 'selenium.methods.ZoominZoomout')
+data.setCell(2, 3, 32425);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'scrolltheWindow')
+data.setCell(3, 2, 'selenium.methods.ScrollWindow')
+data.setCell(3, 3, 30548);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'handleAlert')
+data.setCell(4, 2, 'selenium.methods.Alerts')
+data.setCell(4, 3, 30160);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'takesScreenshot')
+data.setCell(5, 2, 'selenium.methods.Screenshotoffullpage')
+data.setCell(5, 3, 29348);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'disablePushNotification')
+data.setCell(6, 2, 'selenium.methods.DisablePushNotificatin')
+data.setCell(6, 3, 24515);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getandnavigate')
+data.setCell(7, 2, 'selenium.methods.GetandNavigate')
+data.setCell(7, 3, 21957);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sendkeys')
+data.setCell(8, 2, 'selenium.methods.SendKeys')
+data.setCell(8, 3, 20898);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'gettext')
+data.setCell(9, 2, 'selenium.methods.getText')
+data.setCell(9, 3, 14848);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'headlessBrowser')
+data.setCell(10, 2, 'selenium.methods.HeadlessMode')
+data.setCell(10, 3, 13861);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'hideAutomationMessage')
+data.setCell(11, 2, 'selenium.methods.HideAutomationMessage')
+data.setCell(11, 3, 8857);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'htmlcodeofElement')
+data.setCell(12, 2, 'selenium.methods.HTMLCodeofElement')
+data.setCell(12, 3, 8112);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'setsize')
+data.setCell(13, 2, 'selenium.methods.setSize')
+data.setCell(13, 3, 6783);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 56 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">selenium.methods.DownloadFileInChrome</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">downloadFile</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">selenium.methods.DownloadFileInFirefox</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">downloadFileInFolder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.GetandNavigate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getandnavigate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">selenium.methods.AutoSuggestions</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">autoSuggestions</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">21972 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.ZoominZoomout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">zoomInOut</span>
+                <span class="method-start">70224 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.HeadlessMode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">headlessBrowser</span>
+                <span class="method-start">102655 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.SendKeys</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sendkeys</span>
+                <span class="method-start">116525 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.HTMLCodeofElement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">htmlcodeofElement</span>
+                <span class="method-start">137431 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.Screenshotoffullpage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">takesScreenshot</span>
+                <span class="method-start">145554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.HideAutomationMessage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">hideAutomationMessage</span>
+                <span class="method-start">174907 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.setSize</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setsize</span>
+                <span class="method-start">183768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.ScrolltillElement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">scrolltoElement</span>
+                <span class="method-start">190557 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.ScrollWindow</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scrolltheWindow</span>
+                <span class="method-start">239132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.Alerts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">handleAlert</span>
+                <span class="method-start">269692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.getText</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">gettext</span>
+                <span class="method-start">299854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.methods.DisablePushNotificatin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">disablePushNotification</span>
+                <span class="method-start">314711 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

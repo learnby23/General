@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="selenium.methods.GetandNavigate"/>
+      <class name="selenium.methods.AutoSuggestions"/>
+      <class name="selenium.methods.DownloadFileInFirefox"/>
+      <class name="selenium.methods.ZoominZoomout"/>
+      <class name="selenium.methods.HeadlessMode"/>
+      <class name="selenium.methods.SendKeys"/>
+      <class name="selenium.methods.HTMLCodeofElement"/>
+      <class name="selenium.methods.DownloadFileInChrome"/>
+      <class name="selenium.methods.Screenshotoffullpage"/>
+      <class name="selenium.methods.HideAutomationMessage"/>
+      <class name="selenium.methods.setSize"/>
+      <class name="selenium.methods.ScrolltillElement"/>
+      <class name="selenium.methods.ScrollWindow"/>
+      <class name="selenium.methods.Alerts"/>
+      <class name="selenium.methods.getText"/>
+      <class name="selenium.methods.DisablePushNotificatin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

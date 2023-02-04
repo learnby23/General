@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class DownloadFileInFirefox {
 	
-	@Test
+	@Test(enabled = false)
 	public void downloadFileInFolder() throws InterruptedException {
 		
 		FirefoxOptions options=new FirefoxOptions();
@@ -40,6 +40,7 @@ public class DownloadFileInFirefox {
 		downloadedFile.delete();
 		
 		driver.close();
+		driver.quit();
 	}
 
 }

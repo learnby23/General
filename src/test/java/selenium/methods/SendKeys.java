@@ -8,10 +8,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class SendKeys {
 
-	public static void main(String[] args) throws Exception {
+	@Test
+	public void sendkeys() {
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
@@ -22,6 +24,8 @@ public class SendKeys {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
 		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@alt='Google']")));
 		button.click();
+		
+		driver.quit();
 
 	}
 

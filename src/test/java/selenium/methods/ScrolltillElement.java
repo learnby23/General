@@ -11,6 +11,8 @@ public class ScrolltillElement {
 
 	@Test
 	public void scrolltoElement() throws Exception {
+		
+		ScreenRecorderUtil.startRecord("ScrolltillElement");
 
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
@@ -22,9 +24,9 @@ public class ScrolltillElement {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeAsyncScript("arguments[0].scrollIntoView(true);", loginbutton);
-
+		
+		ScreenRecorderUtil.stopRecord();
 		driver.quit();
-
 	}
 
 }

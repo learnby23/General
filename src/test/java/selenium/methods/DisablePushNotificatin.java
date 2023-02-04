@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class DisablePushNotificatin {
 
 	@Test
-	public void disablePushNotification() {
+	public void disablePushNotification() throws Exception {
 
 		// First way to disable the notifications in chrome browser
 		/*
@@ -27,6 +27,10 @@ public class DisablePushNotificatin {
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("https://redbus.in");
+		
+		Thread.sleep(5000);
+		
+		driver.quit();
 
 	}
 

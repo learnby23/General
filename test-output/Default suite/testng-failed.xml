@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.AutoSuggestions">
+      <class name="selenium.methods.TakeScreenshot">
         <methods>
-          <include name="autoSuggestions"/>
+          <include name="takesScreenshot"/>
         </methods>
-      </class> <!-- selenium.methods.AutoSuggestions -->
+      </class> <!-- selenium.methods.TakeScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

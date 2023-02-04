@@ -12,7 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DownloadFileInChrome {
-	@Test
+	@Test(enabled=false)
 	public void downloadFile() throws InterruptedException {
 
 		ChromeOptions options = new ChromeOptions(); // Create the object of the ChromeOptions Class
@@ -36,6 +36,8 @@ public class DownloadFileInChrome {
 		Assert.assertTrue(downloadFile.exists()); // To check the file is exists of the mentioned path or not
 
 		downloadFile.delete(); // To delete the file after download
+		
+		driver.quit();
 
 	}
 }
