@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.TakeScreenshot">
+      <class name="selenium.methods.screenshotusingRobotClass">
         <methods>
-          <include name="takesScreenshot"/>
+          <include name="screenShotusingrobot"/>
         </methods>
-      </class> <!-- selenium.methods.TakeScreenshot -->
+      </class> <!-- selenium.methods.screenshotusingRobotClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

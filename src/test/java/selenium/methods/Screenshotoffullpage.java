@@ -23,7 +23,7 @@ public class Screenshotoffullpage {
 		
 		Screenshot screenshotfullpage = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(2000)).takeScreenshot(driver);
 		
-		ImageIO.write(screenshotfullpage.getImage(),"PNG",new File(System.getProperty("user.dir")+"\\Screenshot\\page.png"));
+		ImageIO.write(screenshotfullpage.getImage(),"PNG",new File(System.getProperty("user.dir")+"\\Screenshot\\screenshot.png"));
 		
 		driver.quit();
 	}

@@ -1,158 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="16" passed="13" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-04T23:39:23 IST" name="Suite" finished-at="2023-02-04T23:45:03 IST" duration-ms="339309">
+  <suite started-at="2023-02-05T16:26:46 IST" name="Default suite" finished-at="2023-02-05T16:27:37 IST" duration-ms="51483">
     <groups>
     </groups>
-    <test started-at="2023-02-04T23:39:23 IST" name="Test" finished-at="2023-02-04T23:45:03 IST" duration-ms="339309">
-      <class name="selenium.methods.HideAutomationMessage">
-        <test-method signature="hideAutomationMessage()[pri:0, instance:selenium.methods.HideAutomationMessage@47eaca72]" started-at="2023-02-04T23:42:18 IST" name="hideAutomationMessage" finished-at="2023-02-04T23:42:27 IST" duration-ms="8857" status="PASS">
+    <test started-at="2023-02-05T16:26:46 IST" name="Default test" finished-at="2023-02-05T16:27:37 IST" duration-ms="51483">
+      <class name="selenium.methods.screenshotusingRobotClass">
+        <test-method signature="screenShotusingrobot()[pri:1, instance:selenium.methods.screenshotusingRobotClass@f6efaab]" started-at="2023-02-05T16:26:46 IST" name="screenShotusingrobot" finished-at="2023-02-05T16:27:37 IST" duration-ms="51315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hideAutomationMessage -->
-      </class> <!-- selenium.methods.HideAutomationMessage -->
-      <class name="selenium.methods.getText">
-        <test-method signature="gettext()[pri:0, instance:selenium.methods.getText@5656be13]" started-at="2023-02-04T23:44:23 IST" name="gettext" finished-at="2023-02-04T23:44:38 IST" duration-ms="14848" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettext -->
-      </class> <!-- selenium.methods.getText -->
-      <class name="selenium.methods.HTMLCodeofElement">
-        <test-method signature="htmlcodeofElement()[pri:0, instance:selenium.methods.HTMLCodeofElement@7b2bbc3]" started-at="2023-02-04T23:41:41 IST" name="htmlcodeofElement" finished-at="2023-02-04T23:41:49 IST" duration-ms="8112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- htmlcodeofElement -->
-      </class> <!-- selenium.methods.HTMLCodeofElement -->
-      <class name="selenium.methods.ZoominZoomout">
-        <test-method signature="zoomInOut()[pri:0, instance:selenium.methods.ZoominZoomout@4c583ecf]" started-at="2023-02-04T23:40:34 IST" name="zoomInOut" finished-at="2023-02-04T23:41:06 IST" duration-ms="32425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- zoomInOut -->
-      </class> <!-- selenium.methods.ZoominZoomout -->
-      <class name="selenium.methods.setSize">
-        <test-method signature="setsize()[pri:0, instance:selenium.methods.setSize@55141def]" started-at="2023-02-04T23:42:27 IST" name="setsize" finished-at="2023-02-04T23:42:34 IST" duration-ms="6783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setsize -->
-      </class> <!-- selenium.methods.setSize -->
-      <class name="selenium.methods.Screenshotoffullpage">
-        <test-method signature="takesScreenshot()[pri:0, instance:selenium.methods.Screenshotoffullpage@1aafa419]" started-at="2023-02-04T23:41:49 IST" name="takesScreenshot" finished-at="2023-02-04T23:42:18 IST" duration-ms="29348" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takesScreenshot -->
-      </class> <!-- selenium.methods.Screenshotoffullpage -->
-      <class name="selenium.methods.ScrollWindow">
-        <test-method signature="scrolltheWindow()[pri:0, instance:selenium.methods.ScrollWindow@3270d194]" started-at="2023-02-04T23:43:23 IST" name="scrolltheWindow" finished-at="2023-02-04T23:43:53 IST" duration-ms="30548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrolltheWindow -->
-      </class> <!-- selenium.methods.ScrollWindow -->
-      <class name="selenium.methods.GetandNavigate">
-        <test-method signature="getandnavigate()[pri:0, instance:selenium.methods.GetandNavigate@4135c3b]" started-at="2023-02-04T23:39:23 IST" name="getandnavigate" finished-at="2023-02-04T23:39:45 IST" duration-ms="21957" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getandnavigate -->
-      </class> <!-- selenium.methods.GetandNavigate -->
-      <class name="selenium.methods.DisablePushNotificatin">
-        <test-method signature="disablePushNotification()[pri:0, instance:selenium.methods.DisablePushNotificatin@4218d6a3]" started-at="2023-02-04T23:44:38 IST" name="disablePushNotification" finished-at="2023-02-04T23:45:03 IST" duration-ms="24515" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disablePushNotification -->
-      </class> <!-- selenium.methods.DisablePushNotificatin -->
-      <class name="selenium.methods.SendKeys">
-        <test-method signature="sendkeys()[pri:0, instance:selenium.methods.SendKeys@48f2bd5b]" started-at="2023-02-04T23:41:20 IST" name="sendkeys" finished-at="2023-02-04T23:41:41 IST" duration-ms="20898" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendkeys -->
-      </class> <!-- selenium.methods.SendKeys -->
-      <class name="selenium.methods.AutoSuggestions">
-        <test-method signature="autoSuggestions()[pri:0, instance:selenium.methods.AutoSuggestions@4d5d943d]" started-at="2023-02-04T23:39:45 IST" name="autoSuggestions" finished-at="2023-02-04T23:40:34 IST" duration-ms="48243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- autoSuggestions -->
-      </class> <!-- selenium.methods.AutoSuggestions -->
-      <class name="selenium.methods.Alerts">
-        <test-method signature="handleAlert()[pri:0, instance:selenium.methods.Alerts@235834f2]" started-at="2023-02-04T23:43:53 IST" name="handleAlert" finished-at="2023-02-04T23:44:23 IST" duration-ms="30160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleAlert -->
-      </class> <!-- selenium.methods.Alerts -->
-      <class name="selenium.methods.ScrolltillElement">
-        <test-method signature="scrolltoElement()[pri:0, instance:selenium.methods.ScrolltillElement@55182842]" started-at="2023-02-04T23:42:34 IST" name="scrolltoElement" finished-at="2023-02-04T23:43:22 IST" duration-ms="48546" status="FAIL">
-          <exception class="org.openqa.selenium.ScriptTimeoutException">
-            <message>
-              <![CDATA[Timed out after 30000 ms
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7f70b923-eee5-47bd-8e9d-244f53308f81, executeAsyncScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=933a4f76-2aa4-4a10-ae47-5f0834ee0d6d, element-6066-11e4-a52e-4f735466cecf=933a4f76-2aa4-4a10-ae47-5f0834ee0d6d}]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:46851, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12856, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46851/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7f70b923-eee5-47bd-8e9d-244f53308f81]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ScriptTimeoutException: Timed out after 30000 ms
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7f70b923-eee5-47bd-8e9d-244f53308f81, executeAsyncScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=933a4f76-2aa4-4a10-ae47-5f0834ee0d6d, element-6066-11e4-a52e-4f735466cecf=933a4f76-2aa4-4a10-ae47-5f0834ee0d6d}]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:46851, moz:geckodriverVersion: 0.32.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12856, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46851/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7f70b923-eee5-47bd-8e9d-244f53308f81
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:493)
-at selenium.methods.ScrolltillElement.scrolltoElement(ScrolltillElement.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ScriptTimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrolltoElement -->
-      </class> <!-- selenium.methods.ScrolltillElement -->
-      <class name="selenium.methods.HeadlessMode">
-        <test-method signature="headlessBrowser()[pri:0, instance:selenium.methods.HeadlessMode@692f203f]" started-at="2023-02-04T23:41:06 IST" name="headlessBrowser" finished-at="2023-02-04T23:41:20 IST" duration-ms="13861" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headlessBrowser -->
-      </class> <!-- selenium.methods.HeadlessMode -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- screenShotusingrobot -->
+      </class> <!-- selenium.methods.screenshotusingRobotClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
