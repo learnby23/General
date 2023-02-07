@@ -11,14 +11,17 @@
       <class name="selenium.methods.SendKeys"/>
       <class name="selenium.methods.HTMLCodeofElement"/>
       <class name="selenium.methods.DownloadFileInChrome"/>
-      <class name="selenium.methods.Screenshotoffullpage"/>
+      <class name="selenium.methods.ScreenshotFileHandler"/>
       <class name="selenium.methods.HideAutomationMessage"/>
+      <class name="selenium.methods.Screenshotoffullpage"/>
       <class name="selenium.methods.setSize"/>
       <class name="selenium.methods.ScrolltillElement"/>
+      <class name="selenium.methods.ScreenshotFileUtils"/>
       <class name="selenium.methods.ScrollWindow"/>
-      <class name="selenium.methods.Alerts"/>
       <class name="selenium.methods.getText"/>
+      <class name="selenium.methods.Alerts"/>
       <class name="selenium.methods.DisablePushNotificatin"/>
+      <class name="selenium.methods.screenshotusingRobotClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

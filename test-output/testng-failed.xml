@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.methods.screenshotusingRobotClass">
+      <class name="selenium.methods.TabandWindow">
         <methods>
-          <include name="screenShotusingrobot"/>
+          <include name="tabandWindow"/>
         </methods>
-      </class> <!-- selenium.methods.screenshotusingRobotClass -->
+      </class> <!-- selenium.methods.TabandWindow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
